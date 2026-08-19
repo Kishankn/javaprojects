@@ -1,5 +1,5 @@
-package day1;
-import java.util.Scanner;
+package Day1;
+
 public class findmax {
     public static void main(String[] args) {
         int a = 20;

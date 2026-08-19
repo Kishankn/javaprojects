@@ -1,4 +1,4 @@
-package day1;
+package Day1;
 
 public class breakcontinue {
     public static void main(String[]args){
