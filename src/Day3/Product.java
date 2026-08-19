@@ -18,13 +18,6 @@ public class Product {
         System.out.println("name of product"+p2.name);
         System.out.println("batch no of product"+p2.bno);
         System.out.println("product price"+p2.pp);
-
-
-
-
-
-
-
     }
 }
 
