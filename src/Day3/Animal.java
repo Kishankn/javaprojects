@@ -13,5 +13,6 @@ public class Animal {
             dog myDog = new dog();
             myDog.eat();
             myDog.bark();
-    }}
+    }
+}
 
