@@ -10,7 +10,7 @@ public class TryCatchBasics {
             int b = sc.nextInt();int result=a/b;
             System.out.println("the result of calculation is "+result);
         }catch (ArithmeticException e){
-            System.out.println("error:cannotdivide by zero");
+            System.out.println("error:cannot divide by zero");
         }
     }
 
