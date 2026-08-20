@@ -1,5 +1,4 @@
-package D
-5ay4;
+package Day4;
 import java.io.File;
 import java.util.Scanner;
 import java.io.FileNotFoundException;
