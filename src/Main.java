@@ -1,13 +1,27 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-void main() {
-    //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-    // to see how IntelliJ IDEA suggests fixing it.
-    IO.println(String.format("Hello and welcome!"));
 
-    for (int i = 1; i <= 5; i++) {
-        //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-        // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-        IO.println("i = " + i);
+public class Main {
+    public static void main(String[] args) {
+
+        int[] arr = {1, 2, 3, 4, 6};
+        int target = 3;
+
+        int left = 0;
+        int right = arr.length - 1;
+
+        while(left < right) {
+
+            int sum = arr[left] + arr[right];
+
+            if(sum == target) {
+                System.out.println("Pair: " + arr[left] + " " + arr[right]);
+                break;
+            }
+            else if(sum < target) {
+                left++;
+            }
+            else {
+                right--;
+            }
+        }
     }
 }
