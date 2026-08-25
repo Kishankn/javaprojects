@@ -2,7 +2,7 @@ package Day6;
 
 public class Recursive {
 
-        public static int binaryRecursive(int[] arr, int left, int right, int target) {
+         static int binaryRecursive(int[] arr, int left, int right, int target) {
             if (left <= right) {
                 int mid = left + (right - left) / 2;
 
