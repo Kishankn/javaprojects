@@ -24,7 +24,7 @@ public class BinarySearch {
 
         public static void main(String[] args) {
             int[] numbers = {2, 5, 8, 12, 16, 23, 38, 56, 72, 91};
-            int target = 3;
+            int target = 5;
 
             int result = binarySearch(numbers, target);
 
