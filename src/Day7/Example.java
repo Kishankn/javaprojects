@@ -1,6 +1,6 @@
 package Day7;
 import java.util.HashMap;
-public class example {
+public class Example {
         public static void main(String[] args){
             HashMap<String, Integer>marks = new HashMap<>();
             marks.put("John",85);
