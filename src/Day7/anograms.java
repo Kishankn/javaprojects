@@ -16,9 +16,9 @@ public class anograms {
             char ch = str1.charAt(i);
             frequency.put(ch, frequency.getOrDefault(ch, 0) + 1);
         }
-        for (int i = 0; i < str1.length(); i++) {
+        for (int i = 0; i < str2.length(); i++) {
             char ch = str2.charAt(i);
-            if (frequency.containsKey(ch)) {
+            if (!frequency.containsKey(ch)) {
                 return false;
             }
             frequency.put(ch, frequency.get(ch) - 1);
