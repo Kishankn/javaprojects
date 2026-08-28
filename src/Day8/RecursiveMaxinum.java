@@ -12,7 +12,7 @@ public class RecursiveMaxinum {
         return max;
     }
     public static void main(String[] args){
-        int[]arr={510, 20, 30, 7, 40};
+        int[]arr={5,10, 20, 30, 7,40 };
         System.out.println("maxinum =" + findMax(arr,0));
 
     }
